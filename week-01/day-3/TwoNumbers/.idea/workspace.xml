@@ -12,7 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade61540-b511-470e-897f-8ce58aeedced" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../test.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingHours/.idea/CodingHours.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingHours/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingHours/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingHours/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,6 +84,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -115,16 +120,18 @@
       <updated>1554284841051</updated>
       <workItem from="1554284842276" duration="1050000" />
       <workItem from="1554285929957" duration="6000" />
+      <workItem from="1554287688703" duration="84000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1056000" />
+    <option name="totallyTimeSpent" value="1140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534992" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25738725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

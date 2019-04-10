@@ -33,6 +33,8 @@ void draw()
 
 }
 void lineDrawing (int x, int y){
+    SDL_SetRenderDrawColor(gRenderer, 0x00 /*R*/, 0xFF /*G*/, 0x00 /*B*/, 0xFF /*A*/);
+    SDL_RenderDrawLine(gRenderer, x, y, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     for (int i = 1; i < 10; ++i) {
 
         SDL_SetRenderDrawColor(gRenderer, 0x00 /*R*/, 0xFF /*G*/, 0x00 /*B*/, 0xFF /*A*/);

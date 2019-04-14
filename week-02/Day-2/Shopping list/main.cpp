@@ -12,7 +12,6 @@ int main() {
             break;
         } else if (i == shoppingList.size() - 1){
             std::cout << "We dont have milk on the list" << std::endl;
-            break;
         }
     }
     //Do we have bananas on the list?
@@ -22,7 +21,6 @@ int main() {
             break;
         } else if (i == shoppingList.size() - 1){
             std::cout << "We dont have bananas on the list" << std::endl;
-            break;
         }
     }
 

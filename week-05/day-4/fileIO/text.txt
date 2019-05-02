@@ -1,0 +1,4 @@
+Laszlo, Budapest, ELTE, 23, Magyar
+Geza, Cegled, BME, 45, Magyar
+James, London, LU, 29, English
+Roberta, Milano, MU, 32, Italian

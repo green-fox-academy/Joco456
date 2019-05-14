@@ -16,8 +16,8 @@ int main() {
 
 int distance(char *array) {
 
-    int firstIndex = -1;
-    int lastIndex = -1;
+    int firstIndex;
+    int lastIndex;
 
     for (int i = 0; i < strlen(array); ++i) {
         if (array[i] == 's') {
@@ -30,6 +30,6 @@ int distance(char *array) {
             lastIndex = j;
         }
     }
-    return lastIndex - firstIndex;
+    return lastIndex - firstIndex -1;
 
 }

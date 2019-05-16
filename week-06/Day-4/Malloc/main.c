@@ -9,14 +9,15 @@
 int main()
 {
     int *numArray;
+    int size = 10;
 
-    numArray = (int *)malloc(10 * sizeof(int));
+    numArray = (int *)malloc(size * sizeof(int));
 
     for (int i = 0; i <= 4 ; ++i) {
         numArray[i] = i;
     }
 
-    for (int j = 0; j < 10 ; ++j) {
+    for (int j = 0; j < size ; ++j) {
         printf("%d\n", numArray[j]);
     }
 

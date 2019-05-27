@@ -26,7 +26,7 @@ void won_point_1(tennis_game_1_t *tennis_game, const char *player_name)
 char *get_score_1(tennis_game_1_t *tennis_game)
 {
     int max_size_of_chars_of_score = 12;
-    char *score = (char *) calloc (max_size_of_chars_of_score, sizeof(char));
+    char *score = (char *)calloc(max_size_of_chars_of_score, sizeof(char));
     int temp_score = 0;
     if (tennis_game->player1_score == tennis_game->player2_score) {
         switch (tennis_game->player1_score) {
@@ -52,24 +52,24 @@ char *get_score_1(tennis_game_1_t *tennis_game)
         int score_difference = tennis_game->player1_score - tennis_game->player2_score;
         if (score_difference == 1) {
             strcat(score, "Advantage ");
-            score = (char *) realloc(score, sizeof(char) * (strlen(score) + size_of_name1 + 1));
+            score = (char *)realloc(score, sizeof(char) * (strlen(score) + size_of_name1 + 1));
             strcat(score, tennis_game->player1_name);
         } else if (score_difference == -1) {
             strcat(score, "Advantage ");
-            score = (char *) realloc(score, sizeof(char) * (strlen(score) + size_of_name2 + 1));
+            score = (char *)realloc(score, sizeof(char) * (strlen(score) + size_of_name2 + 1));
             strcat(score, tennis_game->player2_name);
         } else if (score_difference >= 2) {
             strcat(score, "Win for ");
-            score = (char *) realloc(score, sizeof(char) * (strlen(score) + size_of_name1 + 1));
+            score = (char *)realloc(score, sizeof(char) * (strlen(score) + size_of_name1 + 1));
             strcat(score, tennis_game->player1_name);
         } else {
             strcat(score, "Win for ");
-            score = (char *) realloc(score, sizeof(char) * (strlen(score) + size_of_name2 + 1));
+            score = (char *)realloc(score, sizeof(char) * (strlen(score) + size_of_name2 + 1));
             strcat(score, tennis_game->player2_name);
         }
     } else {
         int length_of_chars_maximum = strlen("Fifteen") + strlen("Thirty") + strlen("-") + 1;
-        score = (char *) realloc(score, sizeof(char) * length_of_chars_maximum);
+        score = (char *)realloc(score, sizeof(char) * length_of_chars_maximum);
         for (int i = 0; i < 2; i++) {
             if (i == 0) {
                 temp_score = tennis_game->player1_score;

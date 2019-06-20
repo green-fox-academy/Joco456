@@ -18,7 +18,6 @@ double getAngle(int x, int y);
 
 int main()
 {
-
 	cv::circle(Ablak, { Ablak.rows / 2, Ablak.cols / 2 }, 10, (76, 80, 212), 10);
 	cv::line(Ablak, { Ablak.rows / 2, Ablak.cols / 2 }, { Ablak.rows, Ablak.cols / 2 }, { 0,0,255 }, 10);
 
@@ -35,7 +34,6 @@ void myMouseCallback(int event, int x, int y, int flags, void* userdata)
 
 		cv::circle(Ablak, { Ablak.rows / 2, Ablak.cols / 2 }, 10, (76, 80, 212), 10);
 		cv::line(Ablak, { Ablak.rows / 2, Ablak.cols / 2 }, { Ablak.rows, Ablak.cols / 2 }, { 0,0,255 }, 10);
-
 
 		cv::line(Ablak, { Ablak.rows / 2, Ablak.cols / 2 }, { x, y }, { 0, 0, 255 }, 10);
 		cv::circle(Ablak, { x,y }, 10, (76, 80, 212), 10);
@@ -74,6 +72,5 @@ double getAngle(int x, int y)
 	if (x >= (Ablak.cols / 2) && y > (Ablak.rows / 2)) {
 		angle = (90 - angle) + 270;
 	}
-
 	return angle;
 }

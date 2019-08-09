@@ -187,3 +187,4 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 * C++
 * OpenCV
 * Jira
+* SQL

@@ -130,7 +130,7 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
       
       
       
-#### Advanced Image Processing:
+#### Advanced Image Processing
     
 * #### Detect Circles
           

@@ -38,26 +38,26 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
 * #### Wave effect
 
-        ​	With this function you can apply wave effect on images . You can use this function by -wave flag     	in command line.
+    ​	With this function you can apply wave effect on images . You can use this function by -wave flag     	in command line.
 
         ​![](https://i.imgur.com/ZuIprME.jpg)
 
 
 * #### Image sharpening
          
-        ​	With this function you can sharpen images . You can use this function by -sharpen flag in    	      	command line.
+    ​	With this function you can sharpen images . You can use this function by -sharpen flag in    	      	command line.
           
-    * Salt effect
+* #### Salt effect
 
-        ​	With this function you can apply salt effect on images . You can use this function by -salty flag in       	command line.	
+    ​	With this function you can apply salt effect on images . You can use this function by -salty flag in       	command line.	
 
-        ​	![](https://i.imgur.com/cPZ1IT6.jpg)
+    ​	![](https://i.imgur.com/cPZ1IT6.jpg)
 
            
 
-    * Reduce Color
+* #### Reduce Color
 
-        With this function you can reduce the color values of images with trackbar. You can use this function by -reduceColor flag in command line.	
+    ​   With this function you can reduce the color values of images with trackbar. You can use this function by -reduceColor flag in command line.	
 
     * Detect Edges
 

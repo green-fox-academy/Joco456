@@ -121,7 +121,7 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
       
         ​	With this function you can separate the RGB channels of images. You can use this function by -  	separateColor flag in command line.
       
-           ​	![](https://i.imgur.com/rZxx4RY.jpg)
+        ​	![](https://i.imgur.com/rZxx4RY.jpg)
       
            
       

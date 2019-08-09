@@ -40,7 +40,7 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
     ​	With this function you can apply wave effect on images . You can use this function by -wave flag     	in command line.
 
-        ​![](https://i.imgur.com/ZuIprME.jpg)
+    ​![](https://i.imgur.com/ZuIprME.jpg)
 
 
 * #### Image sharpening
@@ -59,120 +59,120 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
     ​   With this function you can reduce the color values of images with trackbar. You can use this function by -reduceColor flag in command line.	
 
-    * Detect Edges
+* #### Detect Edges
 
         With this function you can extract edges of images with trackbar by applying Canny Edge Detection. You can use this function by -edges flag in command line.
 
-        ​	![](https://i.imgur.com/ZgzGHqm.jpg)
+    ​	![](https://i.imgur.com/ZgzGHqm.jpg)
 
            
 
-    * Image Morphology
+* #### Image Morphology
 
-        * erode
+    * erode
 
-            With this function you can make lines in images thinner by compute the local minimum over the area of kerner. You can use this function by -erode flag in command line.
+        With this function you can make lines in images thinner by compute the local minimum over the area of kerner. You can use this function by -erode flag in command line.
 
-            ​	![](https://i.imgur.com/QpxrMAh.jpg)
+        ​	![](https://i.imgur.com/QpxrMAh.jpg)
 
                 
 
-        * dilate
+    * dilate
 
-            With this function you can make lines in images thicker by convoluting the image with some kerner. You can use this function by -dilate flag in command line.
+        With this function you can make lines in images thicker by convoluting the image with some kerner. You can use this function by -dilate flag in command line.
 
-            ​	![](https://i.imgur.com/UsoNSRi.jpg)
+        ​	![](https://i.imgur.com/UsoNSRi.jpg)
 
                 
 
-        * open
+    * open
 
-            With this function you can remove backround noise from images. This is basically an erosion followed by dilation. You can use this function by -open flag in command line.
+        With this function you can remove backround noise from images. This is basically an erosion followed by dilation. You can use this function by -open flag in command line.
 
-        * close
+    * close
 
-            With this function you can remove noise from foreground objects in images. This is the reverse of opening, dilation followed by erosion. You can use this function by -close flag in command line.
+        With this function you can remove noise from foreground objects in images. This is the reverse of opening, dilation followed by erosion. You can use this function by -close flag in command line.
 
-    * Image Geometry
+* #### Image Geometry
 
-        ​	With this function you can resize and / or rotate images with trackbar. You can use this function 	by -resizeAndRotate flag in command line.
+    ​	With this function you can resize and / or rotate images with trackbar. You can use this function 	by -resizeAndRotate flag in command line.
 
-    * Histogram
+* #### Histogram
 
-        ​	With this function you can see the histogram of a 3 channel image. You can change brightness 	      	and / or contrast with trackbars. You can use this function by -histogram flag in command line.
+    ​	With this function you can see the histogram of a 3 channel image. You can change brightness 	      	and / or contrast with trackbars. You can use this function by -histogram flag in command line.
 
-        ![](https://media.giphy.com/media/dVi2gWmN9GLyKFMtWG/giphy.gif)
+![](https://media.giphy.com/media/dVi2gWmN9GLyKFMtWG/giphy.gif)
 
            
 
-    * Panorama
+* #### Panorama
 
-        ​	With this function you can make panorama pictures by merging images. You can use this function 	by -panorama flag in command line.
+    ​	With this function you can make panorama pictures by merging images. You can use this function 	by -panorama flag in command line.
 
-    * Detect Corners
+* #### Detect Corners
 
-        ​	With this function you can detect corners on images by utilizing a Harris Corner Detection 	   	   	Algorithm. You can use this function by -corners flag in command line.
+    ​	With this function you can detect corners on images by utilizing a Harris Corner Detection 	   	   	Algorithm. You can use this function by -corners flag in command line.
 
-    * Decolor
+* #### Decolor
 
-        ​	With this function you can decolor images while using contrast preservation. You can use this 	    	function by -decolorflag in command line.
+    ​	With this function you can decolor images while using contrast preservation. You can use this 	    	function by -decolorflag in command line.
 
-    * Separate Colors
+* #### Separate Colors
       
-        ​	With this function you can separate the RGB channels of images. You can use this function by -  	separateColor flag in command line.
+    ​	With this function you can separate the RGB channels of images. You can use this function by -  	separateColor flag in command line.
       
-        ​	![](https://i.imgur.com/rZxx4RY.jpg)
+    ​	![](https://i.imgur.com/rZxx4RY.jpg)
       
            
       
-    * Cartoon Effect
+* #### Cartoon Effect
       
-        ​	With this function you can apply cartoon effect on images by using color reduction and edge 	 	 detection. You can use this function by -cartoon flag in command line.
-          ​    
-           ​	![](https://i.imgur.com/apY6ly3.jpg)
+    ​	With this function you can apply cartoon effect on images by using color reduction and edge 	 	 detection. You can use this function by -cartoon flag in command line.
+        
+    ​	![](https://i.imgur.com/apY6ly3.jpg)
       
       
       
-  * Advanced Image Processing:
+* #### Advanced Image Processing:
     
-    * Detect Circles
+* #### Detect Circles
           
-        ​	With this function you can detect circles on images. You can use this function by -circles flag in   	command line.
+    ​	With this function you can detect circles on images. You can use this function by -circles flag in   	command line.
             
-        ​	![](https://i.imgur.com/zppVvpP.jpg)
+    ​	![](https://i.imgur.com/zppVvpP.jpg)
             
-    * Detect Text
+* #### Detect Text
       
-         ​	With this function you can detect text boxes on images by using a pretrained convolutional 	     	neural network. You can use this function by -detectText flag in command line.
+    ​	With this function you can detect text boxes on images by using a pretrained convolutional 	     	neural network. You can use this function by -detectText flag in command line.
       
-    * Read Text
+* #### Read Text
       
-        ​	With this function you can read text from a preprocessed image with the help of Tesseract. You      	can use this function by -readText flag in command line.
+    ​	With this function you can read text from a preprocessed image with the help of Tesseract. You      	can use this function by -readText flag in command line.
            
       
-* Advanced Video Processing
+* #### Advanced Video Processing
 
-     * Read Speed Limit Sign From Camera Input
+* #### Read Speed Limit Sign From Camera Input
 
-          * Modes:
+    * Modes:
 
-               * Live
+        * Live
 
-                    With this mode with the help of a camera input you can detect speed limit signs. You can use this function by -live flag in command line. You can initialize a serial communication by giving a connected device's port name as a value to the flag (-live="portName"). 
+            With this mode with the help of a camera input you can detect speed limit signs. You can use this function by -live flag in command line. You can initialize a serial communication by giving a connected device's port name as a value to the flag (-live="portName"). 
 
-               * Setup
+        * Setup
 
-                    With this mode with the help of a camera input and trackbars you can set the ideal parameters to detect speed limit signs and save it into a database. You can use this function by -setup flag in command line and if you give value to the flag (-setup="presetName") the parameters will be saved by the given name. Otherwise it will be saved with the name "undefined".
+            With this mode with the help of a camera input and trackbars you can set the ideal parameters to detect speed limit signs and save it into a database. You can use this function by -setup flag in command line and if you give value to the flag (-setup="presetName") the parameters will be saved by the given name. Otherwise it will be saved with the name "undefined".
 
-               * Load Presets
+        * Load Presets
 
-                    With this mode  you can load predefined parameter set from the database via it's name. After a successful call from database the saved parameters will be set and the speed limit sign detection will start. You can use this function by -parameters="presetName" flag in command line.
+            With this mode  you can load predefined parameter set from the database via it's name. After a successful call from database the saved parameters will be set and the speed limit sign detection will start. You can use this function by -parameters="presetName" flag in command line.
                     
-                 ![](https://media.giphy.com/media/L2UEeqkRpZXohXamw7/giphy.gif)
+![](https://media.giphy.com/media/L2UEeqkRpZXohXamw7/giphy.gif)
                  
                     
 
-* Implemented sorting algorithms
+* #### Implemented sorting algorithms
 
      * Bubble sort
      * Merge sort

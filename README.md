@@ -67,21 +67,21 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
            
 
-      * Image Morphology
+    * Image Morphology
 
-           * erode
+        * erode
 
-                With this function you can make lines in images thinner by compute the local minimum over the area of kerner. You can use this function by -erode flag in command line.
+            With this function you can make lines in images thinner by compute the local minimum over the area of kerner. You can use this function by -erode flag in command line.
 
-                ​						![](https://i.imgur.com/QpxrMAh.jpg)
+            ​	![](https://i.imgur.com/QpxrMAh.jpg)
 
                 
 
-           * dilate
+        * dilate
 
-                With this function you can make lines in images thicker by convoluting the image with some kerner. You can use this function by -dilate flag in command line.
+             With this function you can make lines in images thicker by convoluting the image with some kerner. You can use this function by -dilate flag in command line.
 
-                ​						![](https://i.imgur.com/UsoNSRi.jpg)
+            ​	![](https://i.imgur.com/UsoNSRi.jpg)
 
                 
 

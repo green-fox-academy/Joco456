@@ -79,55 +79,55 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
         * dilate
 
-             With this function you can make lines in images thicker by convoluting the image with some kerner. You can use this function by -dilate flag in command line.
+            With this function you can make lines in images thicker by convoluting the image with some kerner. You can use this function by -dilate flag in command line.
 
             ​	![](https://i.imgur.com/UsoNSRi.jpg)
 
                 
 
-           * open
+        * open
 
-                With this function you can remove backround noise from images. This is basically an erosion followed by dilation. You can use this function by -open flag in command line.
+            With this function you can remove backround noise from images. This is basically an erosion followed by dilation. You can use this function by -open flag in command line.
 
-           * close
+        * close
 
-                With this function you can remove noise from foreground objects in images. This is the reverse of opening, dilation followed by erosion. You can use this function by -close flag in command line.
+            With this function you can remove noise from foreground objects in images. This is the reverse of opening, dilation followed by erosion. You can use this function by -close flag in command line.
 
-      * Image Geometry
+    * Image Geometry
 
-           ​	With this function you can resize and / or rotate images with trackbar. You can use this function 	by -resizeAndRotate flag in command line.
+        ​	With this function you can resize and / or rotate images with trackbar. You can use this function 	by -resizeAndRotate flag in command line.
 
-      * Histogram
+    * Histogram
 
-           ​	With this function you can see the histogram of a 3 channel image. You can change brightness 	      	and / or contrast with trackbars. You can use this function by -histogram flag in command line.
+        ​	With this function you can see the histogram of a 3 channel image. You can change brightness 	      	and / or contrast with trackbars. You can use this function by -histogram flag in command line.
 
         ![](https://media.giphy.com/media/dVi2gWmN9GLyKFMtWG/giphy.gif)
 
            
 
-      * Panorama
+    * Panorama
 
-           ​	With this function you can make panorama pictures by merging images. You can use this function 	by -panorama flag in command line.
+        ​	With this function you can make panorama pictures by merging images. You can use this function 	by -panorama flag in command line.
 
-      * Detect Corners
+    * Detect Corners
 
-           ​	With this function you can detect corners on images by utilizing a Harris Corner Detection 	   	   	Algorithm. You can use this function by -corners flag in command line.
+        ​	With this function you can detect corners on images by utilizing a Harris Corner Detection 	   	   	Algorithm. You can use this function by -corners flag in command line.
 
-      * Decolor
+    * Decolor
 
-           ​	With this function you can decolor images while using contrast preservation. You can use this 	    	function by -decolorflag in command line.
+        ​	With this function you can decolor images while using contrast preservation. You can use this 	    	function by -decolorflag in command line.
 
-      * Separate Colors
+    * Separate Colors
       
-           ​	With this function you can separate the RGB channels of images. You can use this function by -  	separateColor flag in command line.
+        ​	With this function you can separate the RGB channels of images. You can use this function by -  	separateColor flag in command line.
       
            ​	![](https://i.imgur.com/rZxx4RY.jpg)
       
            
       
-      * Cartoon Effect
+    * Cartoon Effect
       
-           ​	With this function you can apply cartoon effect on images by using color reduction and edge 	 	 detection. You can use this function by -cartoon flag in command line.
+        ​	With this function you can apply cartoon effect on images by using color reduction and edge 	 	 detection. You can use this function by -cartoon flag in command line.
           ​    
            ​	![](https://i.imgur.com/apY6ly3.jpg)
       

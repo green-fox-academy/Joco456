@@ -30,11 +30,11 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
         * multiplication by scalar
 
-               ​	With this function you can multiply the pixels of an image by a scalar value. You can use this      	function by -multiplyScalar flag in command line.
+            ​	With this function you can multiply the pixels of an image by a scalar value. You can use this      	function by -multiplyScalar flag in command line.
 
-           * multiplication by matrix
+        * multiplication by matrix
 
-               ​	With this function you can multiply 2 images by the  values of their pixels . You can use this     	function by -multiplyMatrix flag in command line.
+            ​	With this function you can multiply 2 images by the  values of their pixels . You can use this     	function by -multiplyMatrix flag in command line.
 
     * Wave effect
 
@@ -55,15 +55,15 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
            
 
-      * Reduce Color
+    * Reduce Color
 
-           With this function you can reduce the color values of images with trackbar. You can use this function by -reduceColor flag in command line.	
+        With this function you can reduce the color values of images with trackbar. You can use this function by -reduceColor flag in command line.	
 
-      * Detect Edges
+    * Detect Edges
 
-           With this function you can extract edges of images with trackbar by applying Canny Edge Detection. You can use this function by -edges flag in command line.
+        With this function you can extract edges of images with trackbar by applying Canny Edge Detection. You can use this function by -edges flag in command line.
 
-           ​						![](https://i.imgur.com/ZgzGHqm.jpg)
+        ​	![](https://i.imgur.com/ZgzGHqm.jpg)
 
            
 

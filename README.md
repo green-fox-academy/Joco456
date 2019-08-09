@@ -18,7 +18,7 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
 #### Basic Image Processing
 
-* ##### Arithmetic Image Operation
+* #### Arithmetic Image Operation
 
     * addition
 
@@ -36,14 +36,14 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
         ​	With this function you can multiply 2 images by the  values of their pixels . You can use this     	function by -multiplyMatrix flag in command line.
 
-    * Wave effect
+* #### Wave effect
 
         ​	With this function you can apply wave effect on images . You can use this function by -wave flag     	in command line.
 
         ​![](https://i.imgur.com/ZuIprME.jpg)
 
 
-    * Image sharpening
+* #### Image sharpening
          
         ​	With this function you can sharpen images . You can use this function by -sharpen flag in    	      	command line.
           

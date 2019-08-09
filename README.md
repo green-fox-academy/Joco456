@@ -40,7 +40,7 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
         ​	With this function you can apply wave effect on images . You can use this function by -wave flag     	in command line.
 
-          ​		![](https://i.imgur.com/ZuIprME.jpg)
+        ​![](https://i.imgur.com/ZuIprME.jpg)
 
 
     * Image sharpening
@@ -101,7 +101,7 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
            ​	With this function you can see the histogram of a 3 channel image. You can change brightness 	      	and / or contrast with trackbars. You can use this function by -histogram flag in command line.
 
-            ![](https://media.giphy.com/media/dVi2gWmN9GLyKFMtWG/giphy.gif)
+        ![](https://media.giphy.com/media/dVi2gWmN9GLyKFMtWG/giphy.gif)
 
            
 
@@ -135,19 +135,19 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
       
   * Advanced Image Processing:
     
-        * Detect Circles
+    * Detect Circles
           
-            ​	With this function you can detect circles on images. You can use this function by -circles flag in   	command line.
+        ​	With this function you can detect circles on images. You can use this function by -circles flag in   	command line.
             
-            ​	![](https://i.imgur.com/zppVvpP.jpg)
+        ​	![](https://i.imgur.com/zppVvpP.jpg)
             
-      * Detect Text
+    * Detect Text
       
-           ​	With this function you can detect text boxes on images by using a pretrained convolutional 	     	neural network. You can use this function by -detectText flag in command line.
+         ​	With this function you can detect text boxes on images by using a pretrained convolutional 	     	neural network. You can use this function by -detectText flag in command line.
       
-      * Read Text
+    * Read Text
       
-           ​	With this function you can read text from a preprocessed image with the help of Tesseract. You      	can use this function by -readText flag in command line.
+        ​	With this function you can read text from a preprocessed image with the help of Tesseract. You      	can use this function by -readText flag in command line.
            
       
 * Advanced Video Processing

@@ -3,12 +3,9 @@
 
 ## Project Members
 
-* [Varga Júlia](https://github.com/green-fox-academy/julcsi2121)
-* [Varga József](https://github.com/green-fox-academy/Joco456)
-* [Varga Viktor](https://github.com/green-fox-academy/vviktor807)
-* [Horváth Donát](https://github.com/green-fox-academy/Hordon13)
+[Varga Júlia](https://github.com/green-fox-academy/julcsi2121) • [Varga József](https://github.com/green-fox-academy/Joco456) • [Varga Viktor](https://github.com/green-fox-academy/vviktor807) • [Horváth Donát](https://github.com/green-fox-academy/Hordon13)
 
- 	![](https://i.imgur.com/Pl98F4K.jpg)
+![](https://i.imgur.com/Pl98F4K.jpg)
 
 ## Project goal
 The aim of this project is to get familiar with OpenCV in C++. Through the implemented functions, you will see how could we reach from zero to be able to detect, analyze and handle speed limit signs from picture or real environment. 
@@ -61,7 +58,7 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
 * #### Detect Edges
 
-        With this function you can extract edges of images with trackbar by applying Canny Edge Detection. You can use this function by -edges flag in command line.
+    ​   With this function you can extract edges of images with trackbar by applying Canny Edge Detection. You can use this function by -edges flag in command line.
 
     ​	![](https://i.imgur.com/ZgzGHqm.jpg)
 
@@ -133,7 +130,7 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
       
       
       
-* #### Advanced Image Processing:
+#### Advanced Image Processing:
     
 * #### Detect Circles
           
@@ -150,7 +147,7 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
     ​	With this function you can read text from a preprocessed image with the help of Tesseract. You      	can use this function by -readText flag in command line.
            
       
-* #### Advanced Video Processing
+#### Advanced Video Processing
 
 * #### Read Speed Limit Sign From Camera Input
 
@@ -168,7 +165,7 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
             With this mode  you can load predefined parameter set from the database via it's name. After a successful call from database the saved parameters will be set and the speed limit sign detection will start. You can use this function by -parameters="presetName" flag in command line.
                     
-![](https://media.giphy.com/media/L2UEeqkRpZXohXamw7/giphy.gif)
+            ![](https://media.giphy.com/media/L2UEeqkRpZXohXamw7/giphy.gif)
                  
                     
 

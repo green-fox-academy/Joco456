@@ -20,15 +20,15 @@ The aim of this project is to get familiar with OpenCV in C++. Through the imple
 
     * Arithmetic Image Operation
 
-           * addition
+        * addition
 
-               ​	With this function you can sum 2 images by pixel values. You can use this function by -add     	flag in command line.
+            ​	With this function you can sum 2 images by pixel values. You can use this function by -add     	flag in command line.
 
-           * subtraction
+        * subtraction
 
-               ​	With this function you can subtract 2 images from each other by pixel values. You can use      	this function by -subtract flag in command line.
+            ​	With this function you can subtract 2 images from each other by pixel values. You can use      	this function by -subtract flag in command line.
 
-           * multiplication by scalar
+        * multiplication by scalar
 
                ​	With this function you can multiply the pixels of an image by a scalar value. You can use this      	function by -multiplyScalar flag in command line.
 

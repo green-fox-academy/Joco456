@@ -14,7 +14,7 @@
 The aim of this project is to get familiar with OpenCV in C++. Through the implemented functions, you will see how could we reach from zero to be able to detect, analyze and handle speed limit signs from picture or real environment. 
 
 
-## Function
+## Functions
 
  * Basic Image Processing
 
